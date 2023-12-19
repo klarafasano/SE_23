@@ -1,0 +1,32 @@
+<html>
+<head>
+    <!--External Styles-->
+    <link rel="stylesheet" href="../styles/stylesheet.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Internal Styles-->
+</head>
+
+<header>
+    <!--Header Box-->
+    <div class="header_box"></div>
+        <!--Adding EZlist! to header_box-->
+        <div class="header_box">
+            <ul class="flex"><li>
+            <a href="../index.php"><h1 class="logo"><i class="fa-solid fa-clipboard-list"></i>EZlist!</h1></a>
+            </li>
+             <!--Search Bar-->
+            <li>
+                <form action="functions/search_recipes.php" method="get">
+                <input class="search" type="text" id="search" name="query" placeholder="Search"> 
+                <button type="submit" class="search_button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+                </form>
+            </li>
+             <!--LogIn User-->
+            <li><p class="login"><i class="fa-solid fa-user"></i>Log Out</p></li>
+            </ul>
+        </div>
+</header>
+
+</html>
